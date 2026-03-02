@@ -159,7 +159,7 @@ This standardized data management method ensures data security and easy operatio
 Manual recording of user meal balances and cafeteria sales data is easy to have typos and data inconsistencies. The system encapsulates balance management in user classes (with negative recharge validation) and uses a singleton SalesRecord class to track global sales data—both relying on Python numeric types and basic data structures for real-time, accurate data update and storage, ensuring data integrity and consistency across the entire system.
 
 ## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm
-- [How is the codes specifically implemented? ](#code files)
+- [How is the code specifically implemented?](#code)
 - [User Guide](#guide)
 - [Video](#video)
 - [References](#references)
@@ -178,7 +178,7 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 ---
 
-## <a name = "code files"></a>📁:How is the code specifically implemented?
+## <a name = "code"></a>📁:How is the code specifically implemented?
 *这里是要求的python源代码文件: Python implementation and basic test cases for the Circular Buffer data structure.
 *这里是要求的python源代码文件: Python implementation and basic test cases for the A* Search Algorithm.
 
