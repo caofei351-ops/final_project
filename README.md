@@ -2,7 +2,7 @@
 This repository contains[task1](#i) and [task2](#o).
 
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
-## <a name="i"></a>🐡:task1 contents
+## <a name="i"></a>🐡:task1 contents-a self-service ordering system
 - [How did this idea come about?](#idea)
 - [The usage of the OOP concepts](#function)
 - [What problems can be solved?](#problem)
