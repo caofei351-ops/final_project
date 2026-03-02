@@ -1,6 +1,9 @@
 ## COMP2090SEF_course_project
-This repository contains [task1](#i) and [task2](#o).
 
+This repository contains [task1](#i) and [task2](#o).
+## Intrduction🗞️:
+
+Task2 contains the source code, user guide, and video demonstration for Task 2 of the COMP2090SEF course project. The objective is to self-study a new data structure and a new algorithm that are not covered in the course.
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 ## <a name="i"></a>🐡:task1 contents-(a self-service ordering system)
 - [How did this idea come about?](#idea)
@@ -155,8 +158,8 @@ This standardized data management method ensures data security and easy operatio
 
 Manual recording of user meal balances and cafeteria sales data is easy to have typos and data inconsistencies. The system encapsulates balance management in user classes (with negative recharge validation) and uses a singleton SalesRecord class to track global sales data—both relying on Python numeric types and basic data structures for real-time, accurate data update and storage, ensuring data integrity and consistency across the entire system.
 
-## <a name="o"></a>🐡:task2 content
-This repository contains the source code, user guide, and video demonstration for Task 2 of the COMP2090SEF course project. The objective is to self-study a new data structure and a new algorithm that are not covered in the course.
+## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm
+ 
 
 ## Data Structure: Circular Buffer 📊
 
