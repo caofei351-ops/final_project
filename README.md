@@ -1,8 +1,8 @@
 ## COMP2090SEF_course_project
 This repository contains[task1](#i) and [task2](#o).
+
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
-## <a name="i"></a>🐡:task1
-## 👀:Contents
+## <a name="i"></a>🐡:task1 contents
 - [How did this idea come about?](#idea)
 - [The usage of the OOP concepts](#function)
 - [What problems can be solved?](#problem)
@@ -155,7 +155,7 @@ This standardized data management method ensures data security and easy operatio
 
 Manual recording of user meal balances and cafeteria sales data is easy to have typos and data inconsistencies. The system encapsulates balance management in user classes (with negative recharge validation) and uses a singleton SalesRecord class to track global sales data—both relying on Python numeric types and basic data structures for real-time, accurate data update and storage, ensuring data integrity and consistency across the entire system.
 
-## <a name="o"></a>🐡:task2
+## <a name="o"></a>🐡:task2 content
 
 
 ## <a name="update"></a>🕵️:Update
