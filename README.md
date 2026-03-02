@@ -159,15 +159,19 @@ This standardized data management method ensures data security and easy operatio
 Manual recording of user meal balances and cafeteria sales data is easy to have typos and data inconsistencies. The system encapsulates balance management in user classes (with negative recharge validation) and uses a singleton SalesRecord class to track global sales data—both relying on Python numeric types and basic data structures for real-time, accurate data update and storage, ensuring data integrity and consistency across the entire system.
 
 ## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm
- 
+- [How is the code specifically implemented?](#code files)
+- [Project Demonstration ](#video)
+- [User Guide](#user guide)
+- [Video](#video)
+- [References](#references)
 
-## Data Structure: Circular Buffer 📊
+## Data Structure 📊: Circular Buffer 
 
 A Circular Buffer is a fixed-size structure that connects the end back to the beginning to form a loop. Unlike a standard queue, it allows the system to reuse memory by overwriting old data without shifting elements. This makes it ideal for handling continuous data streams in embedded systems where memory and performance are limited.
 
 **Application Context:** This structure is a go-to choice for handling continuous data streams and managing queues efficiently. It’s especially useful in resource-constrained environments, like embedded systems, because it helps us avoid memory fragmentation while ensuring the system runs with steady, predictable performance.
 
-## Algorithm: A* (A-Star) Search Algorithm ✅
+## Algorithm ✅: A* (A-Star) Search Algorithm 
 
 A* is a smart pathfinding algorithm that finds the shortest route between two points. It is much faster than Dijkstra’s algorithm because it uses a "heuristic" (an educated guess) to focus its search toward the destination rather than searching in all directions. It is the gold standard for GPS navigation and game AI.
 
@@ -175,11 +179,11 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 ---
 
-## Repository Contents 📁
+## <a name = "code files"></a>📁:How is the code specifically implemented?
 *这里是要求的python源代码文件: Python implementation and basic test cases for the Circular Buffer data structure.
 *这里是要求的python源代码文件: Python implementation and basic test cases for the A* Search Algorithm.
 
-## User Guide 🚀
+## <a name = "user guide"></a>🚀:User Guide 
 
 1. Ensure you have Python 3.x installed on your local environment.
 2. Clone this repository to your machine.
@@ -194,10 +198,10 @@ python 文件名.py
 python 文件名.py
 ```
 
-## Project Demonstration 🎥
+## <a name = "user guide"></a>🎥:Project Demonstration 
 [到时候放视频的链接]
  
-## References 📚
+## <a name = "references"></a>📚:References 
 (写用到的文献)
 
 
