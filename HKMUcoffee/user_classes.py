@@ -18,6 +18,7 @@ class Student(User):
 
 
 class Teacher(User):
+    DISCOUNT_RATE = 0.9
     def __init__(self, phone, teacher_id):
         super().__init__(phone)
         self.teacher_id = teacher_id 
