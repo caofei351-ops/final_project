@@ -1,5 +1,10 @@
 ## COMP2090SEF_course_project
-
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![System](https://img.shields.io/badge/Self--Service-Food%20Ordering-blueviolet)
+![Status](https://img.shields.io/badge/Status-Completed-orange)
+![Type](https://img.shields.io/badge/Project-Campus%20Ordering%20System-orange)
+![Use](https://img.shields.io/badge/Usage-Free%20Use-lightgrey) 
+![Run](https://img.shields.io/badge/Install-No%20Installation%20Required-blueviolet)
 This repository contains [task1](#i) and [task2](#o). (Click on the task you want to see)
 
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
