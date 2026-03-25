@@ -9,7 +9,8 @@ This repository contains [task1](#i) and [task2](#o). (Click on the task you wan
 
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 
-## <a name="i"></a>🐡:task1 contents-a self-service ordering system（Click on the contents you want to see)
+## <a name="i"></a>🐡:task1 contents-a self-service ordering system
+（Click on the contents you want to see)
 - [User Guide](#guide1)
 - [How did this idea come about?](#idea)
 - [The overall functionalities of the system](#function)
@@ -206,7 +207,8 @@ python filename.py
 
 
 
-## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm (Click on the contents you want to see)
+## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm 
+(Click on the contents you want to see)
 - [How is the code specifically implemented?](#code)
 - [User Guide](#guide)
 - [Video](#video)
@@ -217,7 +219,8 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 
 **Application Context:** This structure is a go-to choice for handling continuous data streams and managing queues efficiently. It’s especially useful in resource-constrained environments, like embedded systems, because it helps us avoid memory fragmentation while ensuring the system runs with steady, predictable performance.
 
-I**Implementation:**
+**Implementation:**
+
 
 ## Algorithm ✅: A* (A-Star) Search Algorithm 
 
@@ -225,8 +228,9 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Application Context:** You’ll find A* everywhere—from pathfinding in video games to GPS mapping and autonomous drones. It’s the standard tool for calculating the most efficient route between a starting point and a destination, balancing speed and accuracy perfectly for real-world navigation.
 
-** implementations:**
----
+**Implementation:**
+
+
 
 ## <a name = "code"></a>📁:How is the code specifically implemented?
 *这里是要求的python源代码文件: Python implementation and basic test cases for the Circular Buffer data structure.
