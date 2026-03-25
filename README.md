@@ -1,9 +1,9 @@
 ## COMP2090SEF_course_project
-![Python](https://img.shields.io/badge/Python-3.x-darkred)
-![Status](https://img.shields.io/badge/Status-Completed-orange)
-![Type](https://img.shields.io/badge/Project-Campus%20Ordering%20System-lightorange)
-![Use](https://img.shields.io/badge/Usage-Free%20Use-yellow) 
-![Run](https://img.shields.io/badge/Install-No%20Installation%20Required-lightyellow)
+![Python](https://img.shields.io/badge/Python-3.x-red)
+![Status](https://img.shields.io/badge/Status-Completed-orangered)
+![Type](https://img.shields.io/badge/Project-Campus%20Ordering%20System-orange)
+![Use](https://img.shields.io/badge/Usage-Free%20Use-gold) 
+![Run](https://img.shields.io/badge/Install-No%20Installation%20Required-yellow)
 
 This repository contains [task1](#i) and [task2](#o). (Click on the task you want to see)
 
