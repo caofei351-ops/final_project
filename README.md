@@ -10,7 +10,7 @@ This repository contains [task1](#i) and [task2](#o). (Click on the task you wan
 Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 
 ## <a name="i"></a>🐡:task1 contents-a self-service ordering system
-（Click on the contents you want to see)
+（Click on the content you want to see)
 - [User Guide](#guide1)
 - [How did this idea come about?](#idea)
 - [The overall functionalities of the system](#function)
@@ -208,7 +208,7 @@ python filename.py
 
 
 ## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm 
-(Click on the contents you want to see)
+(Click on the content you want to see)
 - [How is the code specifically implemented?](#code)
 - [User Guide](#guide)
 - [Video](#video)
