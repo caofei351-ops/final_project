@@ -12,7 +12,7 @@ Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 ## <a name="i"></a>🐡:task1 contents-a self-service ordering system（Click on the contents you want to see)
 - [User Guide](#guide1)
 - [How did this idea come about?](#idea)
-- [The usage of the OOP concepts](#function)
+- [the overall functionalities of the system](#function)
 - [What problems can be solved?](#problem)
 - [Video](#video1)
 
@@ -52,7 +52,7 @@ This is the real menu record of HKMU Coffee:
 </details>
 
 
-## <a name="function"></a>🤔: The usage of the OOP concepts
+## <a name="function"></a>🤔: The overall functionalities of the system
 1➡️ **Abstraction** hides complex implementation details and exposes only essential features (via abstract classes/methods).
 - Dish and User in base_classes,py are abstract classes with @abstractmethod(These methods define a "contract" (required behavior) for subclasses but do not implement logic themselves.).
 
