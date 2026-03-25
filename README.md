@@ -12,7 +12,7 @@ Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 ## <a name="i"></a>🐡:task1 contents-a self-service ordering system（Click on the contents you want to see)
 - [User Guide](#guide1)
 - [How did this idea come about?](#idea)
-- [the overall functionalities of the system](#function)
+- [The overall functionalities of the system](#function)
 - [What problems can be solved?](#problem)
 - [Video](#video1)
 
