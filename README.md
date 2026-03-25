@@ -45,7 +45,7 @@ We want to build a simple and practical system based on OOP knowledge to automat
 This is the real menu record of HKMU Coffee:
 
 <details>
-	<summary>Click to view HKMU Coffee menu photo </summary>
+	<summary>➡️Click to view HKMU Coffee menu photo </summary>
 	<img src="https://github.com/user-attachments/assets/ad82172b-7525-43bb-b684-20872895e23d" alt="HKMU Coffee Menu 1" width="70%">
 	<img src="https://github.com/user-attachments/assets/133a84d5-2a1c-40ca-b5ce-9ce48d1e1d7c" alt="HKMU Coffee Menu 2" width="70%">
     <img src="https://github.com/user-attachments/assets/3f131bad-b09c-4a48-9ab6-e51294c8fc06" alt="HKMU Coffee Menu 3" width="70%">
