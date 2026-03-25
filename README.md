@@ -217,12 +217,15 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 
 **Application Context:** This structure is a go-to choice for handling continuous data streams and managing queues efficiently. It’s especially useful in resource-constrained environments, like embedded systems, because it helps us avoid memory fragmentation while ensuring the system runs with steady, predictable performance.
 
+I**Implementation:**
+
 ## Algorithm ✅: A* (A-Star) Search Algorithm 
 
 A* is a smart pathfinding algorithm that finds the shortest route between two points. It is much faster than Dijkstra’s algorithm because it uses a "heuristic" (an educated guess) to focus its search toward the destination rather than searching in all directions. It is the gold standard for GPS navigation and game AI.
 
 **Application Context:** You’ll find A* everywhere—from pathfinding in video games to GPS mapping and autonomous drones. It’s the standard tool for calculating the most efficient route between a starting point and a destination, balancing speed and accuracy perfectly for real-world navigation.
 
+** implementations:**
 ---
 
 ## <a name = "code"></a>📁:How is the code specifically implemented?
