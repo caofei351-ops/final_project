@@ -264,6 +264,7 @@ python filename.py
 - **2026.02.26**:The specific division of labor for Task 2 has been determined.
 - **2026.02.27**The two topics of task 2 has been confirmed.
 - **2026.02.28**:We finished the code for task1.
+- **2026.03.10**:We finished the code for task2.
 - 
   
 ## <a name="contact"></a>💙:Contact
