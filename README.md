@@ -16,7 +16,7 @@ Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 - [How did this idea come about?](#idea)
 - [The overall functionalities of the system](#function)
 - [What problems can be solved?](#problem)
-- [Video](#video1)
+
 
 
 ## <a name = "guide1"></a>🚀:User Guide
