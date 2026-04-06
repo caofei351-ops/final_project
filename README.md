@@ -213,7 +213,9 @@ python filename.py
 ```
 
 ## <a name = "video"></a>🎥:Project Demonstration 
-[the link to the video]
+### Task 2 Demonstration
+https://github.com/caofei351-ops/final_project/blob/main/Introduction%20for%20task2.mp4
+
 
 
 ## <a name = "da"></a>Data Structure 📊: Circular Buffer 
