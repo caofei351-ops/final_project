@@ -12,6 +12,7 @@ Group member: Cao Fei(13755803), Pan HaoWen(13752390),Xin YueYing(13795420)
 ## <a name="i"></a>🐡:task1 contents-a self-service ordering system
 （Click on the content you want to see)
 - [User Guide](#guide1)
+- [Video](#video1)
 - [How did this idea come about?](#idea)
 - [The overall functionalities of the system](#function)
 - [What problems can be solved?](#problem)
@@ -183,26 +184,6 @@ Before this, the canteen used paper menus and Excel to record dishes and orders;
 Manual record-keeping of users' meal balances and cafeteria's sales data is prone to errors due to typos, etc. The balance management function is included in the User class, with negative recharge checked; A SalesRecord single-instance Class was added to manage all-sale-related data at this time; Both use simple Data structures Types like Numeric Variables in Python to update and ensure the integrity of the data.
 
 
-
-## <a name = "guide1"></a>🚀:User Guide
-1. Ensure you have Python 3.x installed on your local environment.
-2. Clone this repository to your machine.
-
-3. To execute the data structure demonstration, run:
-```bash
-python filename.py
-```
-
-4. To execute the algorithm demonstration, run:
-```bash
-python filename.py
-```
-
-
-
-
-
-## <a name = "video1"></a>🎥:Project Demonstration
 
 
 
