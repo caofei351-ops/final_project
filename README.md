@@ -197,18 +197,19 @@ Manual record-keeping of users' meal balances and cafeteria's sales data is pron
 - [Algorithm](#al)
 - [How is the code specifically implemented?](#code)
 
-## <a name = "guide"></a>🚀:User Guide 
+### 🚀 :User Guide
 
-1. Ensure you have Python 3.x installed on your local environment.
-2. Clone this repository to your machine.
+1. Ensure you have **Python 3.x** installed.
 
-3. To execute the data structure demonstration, run:
+2. To execute the **Data Structure (Circular Buffer)** demonstration, run:
+   ```bash
+   cd task2
+   python test_buffer.py
+
+
+3. To execute the algorithm demonstration, run:
 ```bash
-python test_buffer.py
-```
-
-4. To execute the algorithm demonstration, run:
-```bash
+cd task2
 python test_A_star_algorithm.py
 ```
 
