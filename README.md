@@ -194,6 +194,24 @@ Manual record-keeping of users' meal balances and cafeteria's sales data is pron
 - [User Guide](#guide)
 - [Video](#video)
 
+## <a name = "guide"></a>🚀:User Guide 
+
+1. Ensure you have Python 3.x installed on your local environment.
+2. Clone this repository to your machine.
+
+3. To execute the data structure demonstration, run:
+```bash
+python filename.py
+```
+
+4. To execute the algorithm demonstration, run:
+```bash
+python filename.py
+```
+
+## <a name = "video"></a>🎥:Project Demonstration 
+[the link to the video]
+
 ## Data Structure 📊: Circular Buffer 
 
 A Circular Buffer is a fixed-size structure that connects the end back to the beginning to form a loop. Unlike a standard queue, it allows the system to reuse memory by overwriting old data without shifting elements. This makes it ideal for handling continuous data streams in embedded systems where memory and performance are limited.
@@ -217,23 +235,7 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 *这里是要求的python源代码文件: Python implementation and basic test cases for the Circular Buffer data structure.
 *这里是要求的python源代码文件: Python implementation and basic test cases for the A* Search Algorithm.
 
-## <a name = "guide"></a>🚀:User Guide 
 
-1. Ensure you have Python 3.x installed on your local environment.
-2. Clone this repository to your machine.
-
-3. To execute the data structure demonstration, run:
-```bash
-python filename.py
-```
-
-4. To execute the algorithm demonstration, run:
-```bash
-python filename.py
-```
-
-## <a name = "video"></a>🎥:Project Demonstration 
-[the link to the video]
  
 
 
