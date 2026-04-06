@@ -190,9 +190,11 @@ Manual record-keeping of users' meal balances and cafeteria's sales data is pron
 
 ## <a name="o"></a>🐡:task2 contents- Circular Buffer and Search Algorithm 
 (Click on the content you want to see)
-- [How is the code specifically implemented?](#code)
 - [User Guide](#guide)
 - [Video](#video)
+- [Data Structure](#da)
+- [Algorithm](#al)
+- [How is the code specifically implemented?](#code)
 
 ## <a name = "guide"></a>🚀:User Guide 
 
@@ -212,7 +214,8 @@ python filename.py
 ## <a name = "video"></a>🎥:Project Demonstration 
 [the link to the video]
 
-## Data Structure 📊: Circular Buffer 
+
+## <a name = "da"></a>Data Structure 📊: Circular Buffer 
 
 A Circular Buffer is a fixed-size structure that connects the end back to the beginning to form a loop. Unlike a standard queue, it allows the system to reuse memory by overwriting old data without shifting elements. This makes it ideal for handling continuous data streams in embedded systems where memory and performance are limited.
 
@@ -221,7 +224,7 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 **Implementation:**
 
 
-## Algorithm ✅: A* (A-Star) Search Algorithm 
+## <a name = "al"></a> Algorithm ✅: A* (A-Star) Search Algorithm 
 
 A* is a smart pathfinding algorithm that finds the shortest route between two points. It is much faster than Dijkstra’s algorithm because it uses a "heuristic" (an educated guess) to focus its search toward the destination rather than searching in all directions. It is the gold standard for GPS navigation and game AI.
 
