@@ -204,12 +204,12 @@ Manual record-keeping of users' meal balances and cafeteria's sales data is pron
 
 3. To execute the data structure demonstration, run:
 ```bash
-python filename.py
+python test_buffer.py
 ```
 
 4. To execute the algorithm demonstration, run:
 ```bash
-python filename.py
+python test_A_star_algorithm.py
 ```
 
 ## <a name = "video"></a>🎥:Project Demonstration 
