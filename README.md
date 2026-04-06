@@ -213,15 +213,6 @@ cd task2
 python test_A_star_algorithm.py
 ```
 
-### 🚀 :User Guide
-
-1. Ensure you have **Python 3.x** installed.
-
-2. To execute the **Data Structure (Circular Buffer)** demonstration, run:
-   ```bash
-   cd task2
-   python test_buffer.py
-
 
 ## <a name = "video"></a>🎥:Project Demonstration 
 ### Task 2 Demonstration
