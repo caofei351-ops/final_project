@@ -265,7 +265,7 @@ python filename.py
 - **2026.02.27**The two topics of task 2 has been confirmed.
 - **2026.02.28**:We finished the code for task1.
 - **2026.03.10**:We finished the code for task2.
-- 
+- **2026.04.06**:We have completeted the video recording.
   
 ## <a name="contact"></a>💙:Contact
 If you have any questions about our project, please email us with `s1375580@live.hkmu.edu.hk`,`s1375239@live.hkmu.edu.hk`,`s1379542@live.hkmu.edu.hk`.
