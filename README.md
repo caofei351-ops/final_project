@@ -256,6 +256,8 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 - **2026.02.28**:We finished the code for task1.
 - **2026.03.10**:We finished the code for task2.
 - **2026.04.06**:We have completeted the video recording.
+- **2026.04.07**:We finsihed the report for task 1.
+
   
 ## <a name="contact"></a>💙:Contact
 If you have any questions about our project, please email us with `s1375580@live.hkmu.edu.hk`,`s1375239@live.hkmu.edu.hk`,`s1379542@live.hkmu.edu.hk`.
