@@ -31,6 +31,8 @@ python task1/main-system.py
 
 
 ## <a name = "video1"></a>🎥:Project Demonstration
+https://github.com/caofei351-ops/final_project/blob/main/Introduction%20for%20task1.mp4
+
 
 ## <a name="idea"></a>🧠:How did this idea come about?
 This self-service ordering system is designed to address the common problems we face in daily campus life:
