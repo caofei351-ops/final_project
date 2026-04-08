@@ -1,4 +1,4 @@
-## COMP2090SEF_course_project
+## COMP2090SEF_course_project——Group 5
 ![Python](https://img.shields.io/badge/Python-3.x-red)
 ![Status](https://img.shields.io/badge/Status-Completed-orangered)
 ![Type](https://img.shields.io/badge/Project-Campus%20Ordering%20System-orange)
