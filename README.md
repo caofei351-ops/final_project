@@ -227,22 +227,16 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 **Application Context:** This structure is a go-to choice for handling continuous data streams and managing queues efficiently. It’s especially useful in resource-constrained environments, like embedded systems, because it helps us avoid memory fragmentation while ensuring the system runs with steady, predictable performance.
 
 **Implementation:**• Class Initialization 
-
 In figure 1, the implementation begins with the CircularBuffer class constructor, __init__(self, size). This method sets up the data structure’s internal state. It accepts a fixed size parameter to define the buffer’s maximum capacity. It pre-allocates a list self.buffer with empty slots (None). It initializes three key pointers: 1. self.head: Tracks the position of the oldest element (for data removal). 2. self.tail: Tracks the next empty position (for data insertion). 3. self.count: Counts the current number of stored elements.At startup, all pointers start at index 0 and the count is 0, representing an empty buffer.
 • State Checking Methods
-
 In figure 2, two helper methods provide safe runtime state validation: is_empty(): Returns True when self.count == 0, meaning no data is available to remove. is_full(): Returns True when self.count == self.size, meaning the buffer has reached its capacity limit. These methods prevent invalid operations and control the logic of the core add/remove functions.
 •Core Operation: Enqueue (Adding Data) 
-
 In figure 2, the enqueue(self, item) method implements data insertion, the core write operation of the buffer is if the buffer is not full, the new item is placed at the tail index. The tail pointer is advanced using modulo arithmetic (self.tail + 1) % self.size to wrap around the list, and self.count is incremented. If the buffer is full, the code triggers an overwrite mechanism: the new item replaces the data at the tail position. Both tail and head pointers are advanced and wrapped using modulo operation. This ensures the oldest data is automatically discarded, and the buffer maintains its fixed size. The modulo operator % is critical: it simulates the circular behavior by resetting pointers to the start of the list after they reach the last index.
 •Core Operation: Sequence (Removing Data)
-
 In figure 3, the dequeue(self) method implements data removal, following the FIFO rule. If the buffer is empty, it prints a warning and returns None to avoid runtime errors. If data exists, the method retrieves the element at the head index (the oldest item). The position is cleared, the head pointer is advanced and wrapped with modulo arithmetic, and self.count is decremented.The retrieved element is returned as the result.
 •Runtime Visualization
-
 In figure 4, the display() method supports testing and debugging by printing the raw internal list of the buffer. This allows developers to observe the real-time positions of elements, empty slots, and the effects of enqueue/dequeue operations during execution.
 •Runtime Behavior Summary
-
 During execution, the code operates in a continuous cycle: 1. Add elements until the buffer is full. 2. Automatically overwrite old data when new elements arrive for a full buffer. 3. Remove elements from the oldest position when requested. 4. Use pointer wrapping and element counting to maintain correct circular logic at all times.  This design ensures efficient O(1) time complexity for both add and remove operations, making the implementation lightweight and high-performance. 
 
 
