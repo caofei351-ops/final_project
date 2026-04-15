@@ -234,8 +234,10 @@ This document explains how the Circular Buffer (Ring Buffer) is implemented and 
 
 ---
 
-## Step 1: Class Initialization
+ Step 1: Class Initialization
 The constructor sets up the fixed-size buffer, initializes head/tail pointers, and count.
+
+🌟for example:
 
 ```python
 def __init__(self, size):
@@ -247,17 +249,23 @@ def __init__(self, size):
 ```
 Step 2: Check if the Buffer is Empty This method returns True when no elements are stored.
 
+🌟for example:
+
 ```python
 def is_empty(self):
     return self.count == 0
 ```
 Step 3: Check if the Buffer is Full This method returns True when the buffer reaches maximum capacity.
 
+🌟for example:
+
 ```python
 def is_full(self):
     return self.count == self.size
 ```
 Step 4: Enqueue (Add an Item) Adds an item to the buffer. If full, it overwrites the oldest data and moves both head and tail pointers.
+
+🌟for example:
 
 ```python
 def enqueue(self, item):
@@ -273,6 +281,8 @@ def enqueue(self, item):
 ```
 Step 5: Dequeue (Remove an Item) Removes and returns the oldest item. Moves the head pointer forward using modulo to wrap around.
 
+🌟for example:
+
 ```python
 def dequeue(self):
     if self.is_empty():
@@ -286,6 +296,8 @@ def dequeue(self):
     return item
 ```
 Step 6: Display the Buffer State Prints the internal array to show the current structure.
+
+🌟for example:
 
 ```python
 def display(self):
@@ -311,14 +323,14 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Implementation:** 
 
-## Step 1 Import the A* Algorithm Function: The program loads the core A* algorithm into the runtime environment.
+Step 1 Import the A* Algorithm Function: The program loads the core A* algorithm into the runtime environment.
 
 🌟for example:
 
 ```python
 from A_star_algorithm import astar
 ```
-## Step 2 Create the Grid Maze: A 5×5 grid is defined to represent the maze, including start, end, barriers, and passable cells.
+Step 2 Create the Grid Maze: A 5×5 grid is defined to represent the maze, including start, end, barriers, and passable cells.
 
 🌟for example:
 
@@ -331,7 +343,7 @@ grid = [
 ['.', '.', '.', '.', 'E']
 ]
 ```
-## Step 3 Define Symbolic Constants: The program labels grid elements to improve readability.
+Step 3 Define Symbolic Constants: The program labels grid elements to improve readability.
 
 🌟for example:
 
@@ -342,7 +354,7 @@ Space = '.'
 The_path_found_by_the_algorithm = '*'
 Destination = 'E'
 ```
-## Step 4 Set Start and Goal Coordinates: The program defines the start and end positions for pathfinding.
+Step 4 Set Start and Goal Coordinates: The program defines the start and end positions for pathfinding.
 
 🌟for example:
 
@@ -350,14 +362,14 @@ Destination = 'E'
 start = (0,0)
 goal = (4,4)
 ```
-## Step 5 Run the A* Algorithm to Find the Path: The program calls the A* function to compute the shortest valid path while avoiding obstacles.
+Step 5 Run the A* Algorithm to Find the Path: The program calls the A* function to compute the shortest valid path while avoiding obstacles.
 
 🌟for example:
 
 ```python
 path = astar(grid, start, goal)
 ```
-## Step 6 Display and Visualize the Path: The program prints the path coordinates and uses nested loops to draw the path on the grid.
+Step 6 Display and Visualize the Path: The program prints the path coordinates and uses nested loops to draw the path on the grid.
 
 🌟for example:
 
