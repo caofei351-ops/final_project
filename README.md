@@ -256,6 +256,19 @@ Step 1: Import the A* Algorithm Function: The program loads the core A* algorith
 ```python
 from A_star_algorithm import astar
 ```
+Step 2: Create the Grid Maze: A 5×5 grid is defined to represent the maze, including start, end, barriers, and passable cells.
+
+🌟for example:
+
+```python
+grid = [
+['S', '.', '.', '.', '.'],
+['#', '#', '.', '#', '.'],
+['.', '.', '.', '#', '.'],
+['.', '#', '#', '#', '.'],
+['.', '.', '.', '.', 'E']
+]
+```
 
 
 
