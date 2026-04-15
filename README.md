@@ -259,6 +259,15 @@ Step 1: Import the A* Algorithm Function: The program loads the core A* algorith
 ```python
 from A_star_algorithm import astar
 
+2. Create Maze Grid
+grid = [
+['S', '.', '.', '.', '.'],
+['#', '#', '.', '#', '.'],
+['.', '.', '.', '#', '.'],
+['.', '#', '#', '#', '.'],
+['.', '.', '.', '.', 'E']
+]
+
 
 
 ## <a name = "code"></a>📁:How is the code specifically implemented?
