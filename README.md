@@ -253,9 +253,6 @@ Step 1: Import the A* Algorithm Function: The program loads the core A* algorith
 
 🌟for example:
 
-# A* Pathfinding Algorithm Implementation & Runtime Explanation
-
-## 1. Import the A* Algorithm
 ```python
 from A_star_algorithm import astar
 
