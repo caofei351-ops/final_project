@@ -323,6 +323,12 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Implementation:** 
 
+# A* Pathfinding Algorithm Implementation and Execution
+
+This document explains the implementation, runtime workflow, and time complexity of the A* pathfinding algorithm in a grid maze.
+
+---
+
 Step 1 Import the A* Algorithm Function: The program loads the core A* algorithm into the runtime environment.
 
 🌟for example:
