@@ -249,14 +249,14 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Implementation:** 
 
-Step 1: Import the A* Algorithm Function: The program loads the core A* algorithm into the runtime environment.
+Step 1 Import the A* Algorithm Function: The program loads the core A* algorithm into the runtime environment.
 
 🌟for example:
 
 ```python
 from A_star_algorithm import astar
 ```
-Step 2: Create the Grid Maze: A 5×5 grid is defined to represent the maze, including start, end, barriers, and passable cells.
+Step 2 Create the Grid Maze: A 5×5 grid is defined to represent the maze, including start, end, barriers, and passable cells.
 
 🌟for example:
 
@@ -269,6 +269,58 @@ grid = [
 ['.', '.', '.', '.', 'E']
 ]
 ```
+Step 3 Define Symbolic Constants: The program labels grid elements to improve readability.
+
+🌟for example:
+
+```python
+Origin = 'S'
+Barrier = '#'
+Space = '.'
+The_path_found_by_the_algorithm = '*'
+Destination = 'E'
+```
+Step 4 Set Start and Goal Coordinates: The program defines the start and end positions for pathfinding.
+
+🌟for example:
+
+```python
+start = (0,0)
+goal = (4,4)
+```
+Step 5 Run the A* Algorithm to Find the Path: The program calls the A* function to compute the shortest valid path while avoiding obstacles.
+
+🌟for example:
+
+```python
+path = astar(grid, start, goal)
+```
+Step 6: Display and Visualize the Path: The program prints the path coordinates and uses nested loops to draw the path on the grid.
+
+🌟for example:
+
+```python
+print("Path:", path)
+
+for i in range(len(grid)):
+    for j in range(len(grid[0])):
+        if (i,j) == start:
+            print("S", end=" ")
+        elif (i,j) == goal:
+            print("E", end=" ")
+        elif path and (i,j) in path:
+            print("*", end=" ")
+        else:
+            print(grid[i][j], end=" ")
+    print()
+```
+
+Time Complexity Analysis 
+Let N be the total number of cells in the grid.The A* algorithm uses a priority queue to select the next node with the lowest cost.Each insertion or extraction operation takes O(log N) time.In the worst case, the algorithm visits all valid cells, so the time complexity is O(N log N). This matches the runtime behavior: the program iterates through the grid, calculates movement costs, skips barriers, updates the priority queue, and outputs the shortest path.
+
+
+
+
 
 
 
