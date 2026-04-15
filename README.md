@@ -295,7 +295,7 @@ Step 5 Run the A* Algorithm to Find the Path: The program calls the A* function 
 ```python
 path = astar(grid, start, goal)
 ```
-Step 6: Display and Visualize the Path: The program prints the path coordinates and uses nested loops to draw the path on the grid.
+Step 6 Display and Visualize the Path: The program prints the path coordinates and uses nested loops to draw the path on the grid.
 
 🌟for example:
 
