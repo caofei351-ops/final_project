@@ -247,7 +247,19 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Application Context:** You’ll find A* everywhere—from pathfinding in video games to GPS mapping and autonomous drones. It’s the standard tool for calculating the most efficient route between a starting point and a destination, balancing speed and accuracy perfectly for real-world navigation.
 
-**Implementation:**
+**Implementation:**# A* Pathfinding Algorithm Implementation and Execution
+
+This document explains the implementation, runtime workflow, and time complexity of the A* pathfinding algorithm in a grid maze.
+
+---
+
+## 1. Implementation and Runtime Steps
+
+### Step 1: Import the A* Algorithm
+The program imports the pre-built `astar` function for path calculation.
+
+```python
+from A_star_algorithm import astar
 
 
 
