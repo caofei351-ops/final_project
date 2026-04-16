@@ -321,7 +321,6 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 **Application Context:** You’ll find A* everywhere—from pathfinding in video games to GPS mapping and autonomous drones. It’s the standard tool for calculating the most efficient route between a starting point and a destination, balancing speed and accuracy perfectly for real-world navigation.
 
-**Implementation:** 
 
 # A* Pathfinding Algorithm Implementation and Execution
 
