@@ -226,9 +226,9 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 
 **Application Context:** This structure is a go-to choice for handling continuous data streams and managing queues efficiently. It’s especially useful in resource-constrained environments, like embedded systems, because it helps us avoid memory fragmentation while ensuring the system runs with steady, predictable performance.
 
-**Implementation:**
 
-# Circular Buffer: Implementation and Execution
+
+## Circular Buffer: Implementation and Execution
 
 This document explains how the Circular Buffer (Ring Buffer) is implemented and executed step by step.
 
@@ -322,7 +322,7 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 **Application Context:** You’ll find A* everywhere—from pathfinding in video games to GPS mapping and autonomous drones. It’s the standard tool for calculating the most efficient route between a starting point and a destination, balancing speed and accuracy perfectly for real-world navigation.
 
 
-# A* Pathfinding Algorithm Implementation and Execution
+## A* Pathfinding Algorithm Implementation and Execution
 
 This document explains the implementation, runtime workflow, and time complexity of the A* pathfinding algorithm in a grid maze.
 
