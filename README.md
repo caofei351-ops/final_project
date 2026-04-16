@@ -230,7 +230,7 @@ A Circular Buffer is a fixed-size structure that connects the end back to the be
 
 ## Circular Buffer: Implementation and Execution
 
-This document explains how the Circular Buffer (Ring Buffer) is implemented and executed step by step.
+This part explains how the Circular Buffer (Ring Buffer) is implemented and executed step by step.
 
 ---
 
@@ -324,7 +324,7 @@ A* is a smart pathfinding algorithm that finds the shortest route between two po
 
 ## A* Pathfinding Algorithm Implementation and Execution
 
-This document explains the implementation, runtime workflow, and time complexity of the A* pathfinding algorithm in a grid maze.
+This part explains the implementation, runtime workflow, and time complexity of the A* pathfinding algorithm in a grid maze.
 
 ---
 
