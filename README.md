@@ -411,7 +411,7 @@ Let N be the total number of cells in the grid.The A* algorithm uses a priority 
 *test_A_star_algorithm.py: Python implementation and basic test cases for the A* Search Algorithm.
 
 
- 
+
 
 
 ## <a name="update"></a>🕵️:Update
