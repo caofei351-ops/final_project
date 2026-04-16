@@ -32,6 +32,7 @@ python task1/main-system.py
 
 ## <a name = "video1"></a>🎥:Project Demonstration
 https://github.com/caofei351-ops/final_project/blob/main/task1/Introduction%20for%20task1.mp4
+
 If the video is too large to display immediately, please click "view raw file".
 
 ## <a name="idea"></a>🧠:How did this idea come about?
@@ -217,8 +218,8 @@ python test_A_star_algorithm.py
 ## <a name = "video"></a>🎥:Project Demonstration 
 ### Task 2 Demonstration
 https://github.com/caofei351-ops/final_project/blob/main/task2/Introduction%20for%20task2.mp4
-If the video is too large to display immediately, please click "view raw file".
 
+If the video is too large to display immediately, please click "view raw file".
 
 ## <a name = "da"></a>Data Structure 📊: Circular Buffer 
 
