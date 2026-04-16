@@ -423,7 +423,7 @@ Let N be the total number of cells in the grid.The A* algorithm uses a priority 
 - **2026.02.28**:We finished the code for task1.
 - **2026.03.10**:We finished the code for task2.
 - **2026.04.06**:We have completeted the video recording.
-- **2026.04.**:We finsihed the reports.
+- **2026.04.16**:We finsihed the reports and sumbit the Final work.
 
   
 ## <a name="contact"></a>💙:Contact
